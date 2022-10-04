@@ -1,0 +1,47 @@
+các thuộc tính ảnh hưởng đến css :
+- inherit : giống thằng cha
+- box-model: 
+    - Tất cả các model đều có dạng hình hộp 
+- display:
+    - block : 100%;
+    - inline : nằm trong hàng (không thể đặt kích thước : width ,height)
+    -inline-block : nằm trong hàng và có thể đặt kích thước được : width ,height.
+    - flex :
+- img : image -> inline-block 
+
+- box-sizing:
+    43123499 quy định height, width 
+
+- width : 
+    - chỉ tự động theo nội dung bên trong- khi đó là thẻ inline
+- height :
+    - phụ thuộc vào nội dung bên trong
+
+- border :
+    - border : weight , type , color .
+    - border-weight : 
+    - border-style :
+    - border-color :  
+    - border(3 values) : weight style color
+    - border-width :
+
+
+- padding : khoảng cách giữa đường viền và nội dung bên trong 
+    - có 4 loại padding : left , right ,  top , bottom
+    - có thể viết tắt : 
+        - padding(4 value) : top right bottom left
+        - padding (2 value ) : (top bottom , left right)
+    
+- color (hex color) : search google
+
+
+- margin : khoảng cách giữa 2 elements với nhau
+    -have 4 types : top bottom left right
+    - margin (4 value): top right bottom left(theo chiều kim đồng hồ)
+
+html chia làm hai loại : block , inline;
+max-width : chiều rộng tối đa
+max-height : chiều cao tối đa
+min-width : chiều rộng tối thiểu
+min-height : chiều dài tối thiểu
+

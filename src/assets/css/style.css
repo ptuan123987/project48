@@ -1,0 +1,82 @@
+/* reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* layout */
+
+.info-list {
+    margin: 30px auto;
+    width: 650px;
+    background-color: rgb(242, 243, 245);
+}
+
+.info-list li .image {
+    width: 100px;
+    float: left;
+}
+
+.info-list li .info {
+    float: right;
+    width: 520px;
+    padding-bottom: 16px;
+}
+
+.info-list li .image img {
+    border-radius: 4px;
+}
+
+.info-list li {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed rgb(243, 159, 153);
+}
+
+.info-list li:first-child {
+    padding-top: 16px;
+}
+
+.info-list li:last-child {
+    border-bottom: none;
+}
+
+.info-list li .info h3 {
+    font-size: 18px;
+    padding-bottom: 9px;
+}
+
+.info-list li .info p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgb(171, 165, 159);
+}
